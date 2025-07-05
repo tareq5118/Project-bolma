@@ -1,0 +1,19 @@
+html{background-color: white;}
+.hero-body .hero-image{
+    /* display: block; */
+    max-width: 520px;
+    margin: 0 auto;
+}
+.hero-foot img.partner-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;}
+    .feature-card .card-icon img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 30px auto;}
+    .feature-card .card-text {
+    max-width: 210px;
+    margin: 0 auto;}
