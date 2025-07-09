@@ -1,4 +1,14 @@
+:root {
+  --bulma-primary-h: 36deg;
+  --bulma-primary-l: 48%;
+  --bulma-link-h: 196deg;
+  --bulma-link-s: 79%;
+  --bulma-link-l: 61%;
+}   
 html{background-color: white;}
+button{
+    background-color: #4fc1ea;
+}
 .hero-body .hero-image{
     /* display: block; */
     max-width: 520px;
@@ -17,3 +27,21 @@ html{background-color: white;}
     .feature-card .card-text {
     max-width: 210px;
     margin: 0 auto;}
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .flex-wrap{
+        display: flex
+;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 10;
+    }
+    .feature-card.is-pricing {
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    box-shadow: -1px 3px 15px #0000000f;
+    margin: 8px;
+    padding: 20px;
+    height: 420px;}
